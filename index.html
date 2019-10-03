@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>
+        Guitar_universe
+    </title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="subheader">
+                <div class="container navig">
+                    <p>Online Guitar Shop</p>
+                    <nav class="hide-on-small" id="openup">
+                        <a href="#">Help</a>
+                        <a href="#">Download App</a>
+                        <a href="#">Consumer</a>
+                        <a href="#">Guest</a>
+                        <a href="#">Deals</a>
+                        <a href="#">Order</a>
+                        <a href="#">Products</a>
+                        <a href="#">New Arrivals</a>
+                        <a href="#">Accessories</a>
+                        <a href="#">Home</a>
+                    </nav>
+                </div>
+            </div>
+
+
+            <div id="main-header">
+                <div id="logo">
+                    <span id="ist">Guitar</span><span id="iist">universe</span>
+                </div>
+                <div id="search">
+                    <form action="#">
+                        <input class="search-area" type="text" name="text" placeholder="Search Here">
+                        <input class="search-btn" type="submit" name="submit" value="SEARCH">
+                    </form>
+                </div>
+                <!-- menu -->
+                <div id="user-menu">
+
+                    <li><img class="cart" src="img/cart.svg" alt="cart"> <a href="#">cart</a></li>
+                    <li><img class="padlock" src="img/padlock.png" alt="padlock"> <a href="#">login</a> </li>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="banner" src="img/banner.jpg" alt="Los Angeles" style="width:100%; height:300px;">
+                    </div>
+
+                    <div class="item">
+                        <img class="banner" src="img/banner2.jpg" alt="Chicago" style="width:100%; height:300px;">
+                    </div>
+
+                    <div class="item">
+                        <img class="banner" src="img/banner3.jpg" alt="New york" style="width:100%;height:300px;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- category boxes -->
+        <div class="container ">
+            <div id="heading-block">
+                <h2>Products</h2>
+            </div>
+        </div>
+        <!-- catbox1 -->
+        <div style="display:block">
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size" src="img/img1.jpg" alt="Generic Box Guitar">
+                    <span>Generic Box Guitar </span><br>
+                    <span>Rating: 3/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 25,000</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+                </div>
+            </a>
+            <!-- catbox2 -->
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size" src="img/img2.jpg" alt="Generic 6 Strings Electric Lead Guitar ">
+                    <span>Generic 6 Strings Electric Lead Guitar </span><br>
+                    <span>Rating: 4/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 40,000</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+                </div>
+            </a>
+            <!-- catbox3 -->
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size" src="img/img3.jpg" alt="Generic 5 strings Bass Guitar With Bag And Belt">
+                    <span>Generic 5 strings Bass Guitar With Bag And Belt </span><br>
+                    <span>Rating: 4/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 55,000</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+
+                </div>
+            </a>
+            <!-- catbox4 -->
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size" src="img/img4.jpg" alt="Generic 5 color Aluminium Alloy Capo Tuning 
+                            Guitar Ukele
+                            Diacritical Clip Tuner Red">
+                    <span>Generic 5 color Aluminium Alloy Capo Tuning Guitar Ukele
+                        Diacritical Clip Tuner Red </span><br>
+                    <span>Rating: 3/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 3,380</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+                </div>
+            </a>
+            <!-- catbox5 -->
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size2" src="img/img5.jpg" alt="Generic Thicken Folk Guitar Bag Double Shoulder Strap Guitar Bag 
+                                Oxford Fabric Bag Green">
+                    <span>Generic Thicken Folk Guitar Bag Double Shoulder Strap Guitar Bag
+                        Oxford Fabric Bag Green </span><br>
+                    <span>Rating: 3/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 28,910</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+                </div>
+            </a>
+            <!-- catbox6 -->
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size2" src="img/img6.jpg" alt="Generic Caline CP-20 Mini Overdrive Effect Pedal 
+                                True Byp Musical Instrument Green">
+                    <span>Generic Caline CP-20 Mini Overdrive Effect Pedal
+                        True Byp Musical Instrument Green </span><br>
+                    <span>Rating: 2/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 20,325</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+                </div>
+            </a>
+            <!-- catbox7 -->
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size2" src="img/img7.jpg" alt="Allwin Characteristic Graffiti Guitar Strap Colorful 
+                                Painted Anti-slipped Strap Colorful">
+                    <span>Allwin Characteristic Graffiti Guitar Strap Colorful Painted
+                        Anti-slipped Strap Colorful</span><br>
+                    <span>Rating: 3/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 8,900</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+                </div>
+            </a>
+            <!-- catbox8 -->
+            <a href="#">
+                <div class="cat-box">
+                    <img class="img-size2" src="img/img8.jpg" alt="Aroma AROMA AG-03M Portable
+                                 Charging 3W Mini Guitar Amplifier">
+                    <span> Aroma AROMA AG-03M Portable Charging 3W Mini Guitar Amplifier</span><br>
+                    <span>Rating: 3/5</span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span><br>
+                    <span>&#8358 20,325</span>
+                    <br><input type="button" class="button" value="Add To Cart ">
+                </div>
+            </a>
+        </div>
+        <div class="container ">
+            <div id="heading-block2">
+                <h2>Offer</h2>
+            </div>
+        </div>
+        <div class="offer-container">
+            <a href="#">
+                <div class="offer-box">
+                    <div class="overlay">
+                        <div class="overlay-prop">
+                            PRS 20% off!
+                            <br> <span style="color:rgb(184, 39, 184); text-decoration:line-through">&#8358
+                                40,000</span><br>
+                            &#8358 32,000 <br>
+                            <input type="button" value="Add To Cart">
+                        </div>
+                    </div>
+                    <img class="offer-img" src="img/offer1.jpg" alt="PRS 20% off">
+
+                </div>
+            </a>
+            <a href="#">
+                <div class="offer-box">
+                    <div class="overlay">
+                        <div class="overlay-prop">
+                            Buy the YAHAMA SA2200 now at 15% discount!
+                            <br> <span style="color: rgb(184, 39, 184); text-decoration:line-through">&#8358
+                                30,000</span><br>
+                            &#8358 25,000 <br>
+                            <input type="button" value="Add To Cart">
+                        </div>
+                    </div>
+                    <img class="offer-img" src="img/offer2.jpg" alt="YAHAMA SA2200">
+                </div>
+            </a>
+            <a href="#">
+                <div class="offer-box">
+                    <div class="overlay">
+                        <div class="overlay-prop">
+                            All New Gibson Guitars for 25% off!
+                            <br> <span style="color:rgb(184, 39, 184); text-decoration:line-through">&#8358
+                                150,000</span><br>
+                            &#8358 100,000 <br>
+                            <input type="button" value="Add To Cart">
+                        </div>
+                    </div>
+                    <img class="offer-img" src="img/offer3.jpg" alt="All New Gibson 2019">
+                </div>
+            </a>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container footer-top">
+                <div class="footer-cols">
+                    <ul>
+                        <li>Shop & Learn</li>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Accessories</a>
+                        </li>
+                        <li>
+                            <a href="#">Offers</a>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>Store</li>
+                        <li>
+                            <a href="#">Acoustic</a>
+                        </li>
+                        <li>
+                            <a href="#">Electro Acoustic</a>
+                        </li>
+                        <li>
+                            <a href="#">Semi Acoustic</a>
+                        </li>
+                        <li>
+                            <a href="#">Electric</a>
+                        </li>
+                        <li>
+                            <a href="#">Bass</a>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>About GuitarUniverse</li>
+                        <li>
+                            <a href="#">New Arrivals</a>
+                        </li>
+                        <li>
+                            <a href="#">Consumer</a>
+                        </li>
+                        <li>
+                            <a href="#">Investors</a>
+                        </li>
+                        <li>
+                            <a href="#">App</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact GuitarUniverse</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer-bottom ">
+                Copyright &copy; 2019 GuitarUniverse
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</body>
+
+</html>
